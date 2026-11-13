@@ -1,0 +1,87 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Task Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <h1>My Task Manager</h1>
+  <p>Organize your daily tasks.</p>
+
+  <!-- NEW: Light/Dark Mode Toggle -->
+  <button id="themeToggle" type="button">
+    🌙 Dark Mode
+  </button>
+
+  <input
+    id="taskInput"
+    type="text"
+    placeholder="Enter a task"
+  >
+
+  <button id="addButton">Add Task</button>
+
+  <div class="filters">
+    <button id="allBtn">All</button>
+    <button id="activeBtn">Active</button>
+    <button id="completedBtn">Completed</button>
+  </div>
+
+<!-- TASK STATISTICS -->
+<section class="task-stats">
+
+  <div class="stats-grid">
+
+    <div class="stat-card">
+      <h3 id="totalTasks">0</h3>
+      <p>Total Tasks</p>
+    </div>
+
+    <div class="stat-card">
+      <h3 id="completedTasks">0</h3>
+      <p>Completed</p>
+    </div>
+
+    <div class="stat-card">
+      <h3 id="remainingTasks">0</h3>
+      <p>Remaining</p>
+    </div>
+
+  </div>
+
+  <!-- PROGRESS BAR -->
+  <div class="progress-header">
+    <span>Task Progress</span>
+    <span id="progressPercent">0%</span>
+  </div>
+
+  <div
+    class="progress-bar"
+    id="progressBar"
+    role="progressbar"
+    aria-label="Task completion progress"
+    aria-valuemin="0"
+    aria-valuemax="100"
+    aria-valuenow="0"
+  >
+    <div id="progressFill"></div>
+  </div>
+
+</section>
+
+
+  <ul id="taskList"></ul>
+
+<script src="https://unpkg.com/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+<script src="script.js"></script>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
