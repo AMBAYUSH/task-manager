@@ -1,9 +1,21 @@
+# Task Manager — JavaScript Web Application
 
-# Task Manager
+A responsive task management application built with vanilla JavaScript, HTML5, and CSS3. Designed to help users organize daily activities, manage tasks, and visualize their productivity.
 
-A modern, responsive Task Manager web application built using HTML, CSS, and JavaScript.
+**[Live Demo](https://AMBAYUSH.github.io/task-manager/)** | **[Source Code](https://github.com/AMBAYUSH/task-manager)**
 
-This project helps users organize daily tasks, track progress, and stay productive.
+## Project Highlights
+
+- **Task Management:** Create, edit, complete, and delete tasks with confirmation.
+- **Persistent Storage:** Save tasks and theme preferences using browser localStorage.
+- **Productivity Dashboard:** Display real-time task statistics and completion progress.
+- **Task Filtering:** Switch between all, active, and completed tasks.
+- **User Interface:** Responsive light/dark themes with Lucide icons.
+
+## Technical Skills Demonstrated
+
+JavaScript DOM manipulation, event handling, array methods, state management, browser storage, responsive CSS, Git, and GitHub Pages deployment.
+
 
 ## Features
 
